@@ -1,0 +1,24 @@
+{
+  "name": "cordova-nearby",
+  "version": "0.0.1",
+  "description": "Cordova plugin to implement the QuantumCredits management for Timewaver apps",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:delodi/di.cl.timewaver.git"
+  },
+  "keywords": [
+    "cordova",
+    "quantum",
+    "credit",
+    "plugin"
+  ],
+  "author": "whiteoctober",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://delodi.atlassian.net/browse/TW"
+  },
+  "homepage": "https://timewaver.com/de/"
+}
