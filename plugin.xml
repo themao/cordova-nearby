@@ -4,9 +4,15 @@
         xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android">
     <name>nearby</name>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
     <js-module name="nearby" src="www/nearby.js">
         <clobbers target="cordova.plugins.nearby" />
     </js-module>
+
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="nearby">
